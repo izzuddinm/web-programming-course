@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Semantic</title>
+</head>
+<body>
+    <header>
+        <img src="/images/logo-unpam.png" width="100" alt="">
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="registrasi.html">Pendafataran</a>
+    </nav>
+    <section>
+        <h3>Formulir Pendafataran Mahasiswa Baru Universitas Pamulang</h3>
+        <fieldset>
+            <form action="#">
+                <table>
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td><input type="text" placeholder="Masukan Nama Lengkap"></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Panggilan</td>
+                        <td><input type="text" placeholder="Masukan Nama Panggilan"></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" name="jk">Laki-Laki
+                            <input type="radio" name="jk">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>
+                            <input type="checkbox">Menulis
+                            <input type="checkbox">Membaca
+                            <input type="checkbox">Olahraga
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">Islam</option>
+                                <option value="">Katolik</option>
+                                <option value="">Kristen</option>
+                                <option value="">Hindu</option>
+                                <option value="">Budha</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><textarea name="deskripsi" rows="8" cols="30" style="overflow-y: scroll;"></textarea></td>
+                    </tr>            
+                    <tr>
+                        <td colspan="10">
+                            <input type="submit" value="kirim">
+                            <input type="reset" value="hapus">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </section>
+    <footer>Copyright 2023</footer>
+</body>
+</html>
