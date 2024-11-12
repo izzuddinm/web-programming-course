@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Selector Atribut- Fordis 13</title>
+</head>
+<body>
+
+    <h2>a. [attribute~="value"] Selector</h2>
+    <div class="aktif pengguna">Pengguna aktif.</div>
+    <div class="tidak-aktif pengguna">Pengguna tidak aktif.</div>
+
+    <hr>
+
+    <h2>b. [attribute|="value"] Selector</h2>
+    <div data-peran="admin">Pengguna Admin</div>
+    <div data-peran="admin-1">Pengguna Admin 1</div>
+    <div data-peran="pengguna">Pengguna Reguler</div>
+
+    <hr>
+
+    <h2>c. [attribute^="value"] Selector</h2>
+    <div id="produk-001">Produk 001</div>
+    <div id="produk-002">Produk 002</div>
+    <div id="produk-003">Produk 003</div>
+    <div id="kategori-001">Kategori 001</div>
+    <div id="promo-001">Promo 001</div>
+
+    <hr>
+
+    <h2>d. [attribute$="value"] Selector</h2>
+    <img src="/images/logo_java.png" width="100" alt="logo java">
+    <img src="/images/logo_js.png" width="85" alt="logo python">
+
+    <hr>
+
+    <h2>e. [attribute*="value"] Selector</h2>
+    <input type="text" placeholder="Cari produk...">
+    <input type="text" placeholder="Cari artikel...">
+    <input type="text" placeholder="Masukkan kata kunci...">
+
+</body>
+<style>
+    /* a. [attribute~="value"] Selector */
+    [class~="aktif"] {
+        background-color: lightgreen;
+        font-weight: bold;
+    }
+
+    /* b. [attribute|="value"] Selector */
+    [data-peran|="admin"] {
+        color: red;
+    }
+
+    /* c. [attribute^="value"] Selector */
+    [id^="produk-"] {
+        background-color: lightblue;
+        padding: 10px;
+        }
+
+    /* d. [attribute$="value"] Selector */
+    [alt$="logo"] {
+        border: 2px solid black;
+    }
+
+    /* e. [attribute*="value"] Selector */
+    [placeholder*="cari"] {
+        background-color: lightyellow;
+    }
+</style>
+</html>
