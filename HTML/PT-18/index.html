@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var job = "Manager";
+var experience = 8;
+var salary;
+
+if (job === "Manager" && experience >= 10) {
+    salary = 20000000; 
+} else if (job === "Manager" && experience >= 5) {
+    salary = 15000000;
+} else if (job === "Staff" && experience >= 10) {
+    salary = 12000000; 
+} else if (job === "Staff" && experience >= 5) {
+    salary = 9000000; 
+} else if (job === "Intern") {
+    salary = 3000000; 
+} else {
+    salary = 5000000; 
+}
+
+document.write(
+    "Pekerjaan: " + job + "<br>" +
+    "Pengalaman: " + experience + " tahun<br>" +
+    "Gaji: Rp" + salary
+);
+</script>
+</body>
+</html>
