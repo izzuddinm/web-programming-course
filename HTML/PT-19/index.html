@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Online Programming Courses</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">Online Courses</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Web Development</a></li>
+            <li><a class="dropdown-item" href="#">Data Science</a></li>
+            <li><a class="dropdown-item" href="#">Mobile Development</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Jumbotron -->
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5">
+    <h1 class="display-5 fw-bold">Belajar Pemrograman Online</h1>
+    <p class="col-md-8 fs-4">
+      Mulai perjalanan Anda dalam dunia pemrograman dengan kursus online komprehensif kami. Baik Anda pemula atau ingin meningkatkan keterampilan, kami memiliki sesuatu untuk semua orang!
+    </p>
+    <p class="col-md-8 fs-4">
+      Pelajari bahasa pemrograman populer seperti Python, JavaScript, Java, dan C++. Kuasai keterampilan front-end, back-end, dan full-stack development. Dapatkan sertifikat resmi untuk meningkatkan peluang karier Anda.
+    </p>
+    <button class="btn btn-primary btn-lg" type="button">Mulai Belajar</button>
+  </div>
+</div>
+<!-- End Jumbotron -->
+
+<section id="card">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col mb-5">
+        <div class="card h-100">
+          <img src="web-development.png" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">
+              <strong>Mulai perjalanan Anda sebagai pengembang web!</strong>
+              <ul>
+                <li>Pelajari HTML, CSS, dan JavaScript untuk membangun situs web interaktif.</li>
+                <li>Kuasai frameworks populer seperti React, Angular, dan Vue.js.</li>
+                <li>Dapatkan pengalaman praktis dengan proyek-proyek nyata.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-5">
+        <div class="card h-100">
+          <img src="data-science.jpg" class="card-img-top" alt="Data Science">
+          <div class="card-body">
+            <h5 class="card-title">Data Science</h5>
+            <p class="card-text">
+              <strong>Unleash the power of data!</strong>
+              <ul>
+                <li>Pelajari teknik pengumpulan, pembersihan, dan analisis data.</li>
+                <li>Kuasai tools seperti Python, R, dan SQL.</li>
+                <li>Terapkan machine learning dan AI untuk membuat prediksi cerdas.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-5">
+        <div class="card h-100">
+          <img src="mobile-development.jpg" class="card-img-top" alt="Mobile Development">
+          <div class="card-body">
+            <h5 class="card-title">Mobile Development</h5>
+            <p class="card-text">
+              <strong>Bangun aplikasi mobile yang inovatif!</strong>
+              <ul>
+                <li>Pelajari pengembangan aplikasi Android dengan Kotlin atau Java.</li>
+                <li>Kuasai pengembangan aplikasi iOS dengan Swift.</li>
+                <li>Kembangkan aplikasi lintas platform dengan React Native atau Flutter.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="mb-3 row text-center">
+      <h1>Contact Us</h1>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+          </div>
+          <div class="mb-3 form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Subscribe to our newsletter.</label>
+          </div>
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  <div class="container">
+    <p>Follow us on:
+      <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i> Instagram</a> | 
+      <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i> Twitter</a> | 
+      <a href="#" class="text-white mx-2"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+    </p>
+    <p>© 2024 Online Programming Courses. All rights reserved.</p>
+  </div>
+</footer>
+<!-- End Footer -->
+
+<!-- Bootstrap JS -->
+ ⬤
